@@ -5,9 +5,7 @@
 	<key>fileTypes</key>
 	<array>
 		<string>hc</string>
-		<string>hh</string>
 		<string>HC</string>
-		<string>HH</string>
 	</array>
 	<key>firstLineMatch</key>
 	<string>-[*]-( Mode:)? C -[*]-</string>
