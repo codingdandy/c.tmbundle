@@ -4,15 +4,17 @@
 <dict>
 	<key>fileTypes</key>
 	<array>
-		<string>c</string>
-		<string>h</string>
+		<string>hc</string>
+		<string>hh</string>
+		<string>HC</string>
+		<string>HH</string>
 	</array>
 	<key>firstLineMatch</key>
 	<string>-[*]-( Mode:)? C -[*]-</string>
 	<key>keyEquivalent</key>
 	<string>^~C</string>
 	<key>name</key>
-	<string>C</string>
+	<string>HolyC</string>
 	<key>patterns</key>
 	<array>
 		<dict>
@@ -37,19 +39,19 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(break|case|continue|default|do|else|for|goto|if|_Pragma|return|switch|while)\b</string>
+			<string>\b(break|case|continue|default|do|else|for|goto|if|return|switch|while|throw|try|catch|extern|MOV|CALL|PUSH|LEAVE|RET|SUB|SHR|ADD|RETF|CMP|JNE|BTS|INT|XOR|JC|JZ|LOOP|POP|TEST|SHL|ADC|SBB|JMP|INC)\b</string>
 			<key>name</key>
 			<string>keyword.control.c</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(asm|__asm__|auto|bool|_Bool|char|_Complex|double|enum|float|_Imaginary|int|long|short|signed|struct|typedef|union|unsigned|void)\b</string>
+			<string>\b(U0|I8|U8|I16|U16|I32|U32|I64|U64|F64|Bool|class|union|DU8|DU16|DU32|DU64|RAX|RCX|RDX|RBX|RSP|RBP|RSI|RDI|EAX|ECX|EDX|EBX|ESP|EBP|ESI|EDI|AX|CX|DX|BX|SP|BP|SI|DI|SS|CS|DS|ES|FS|GS|CH)\b</string>
 			<key>name</key>
 			<string>storage.type.c</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(const|extern|register|restrict|static|volatile|inline)\b</string>
+			<string>\b(asm|const|extern|register|restrict|static|volatile|inline|_extern|_import|IMPORT|public)\b</string>
 			<key>name</key>
 			<string>storage.modifier.c</string>
 		</dict>
@@ -75,7 +77,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(NULL|true|false|TRUE|FALSE)\b</string>
+			<string>\b(NULL|TRUE|FALSE|ON|OFF)\b</string>
 			<key>name</key>
 			<string>constant.language.c</string>
 		</dict>
@@ -246,7 +248,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>^\s*#\s*(error|warning)\b</string>
+			<string>^\s*#\s*(error|warning|help_index|assert)\b</string>
 			<key>captures</key>
 			<dict>
 				<key>1</key>
@@ -271,7 +273,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>^\s*#\s*(include|import)\b</string>
+			<string>^\s*#\s*(include|import|exe)\b</string>
 			<key>captures</key>
 			<dict>
 				<key>1</key>
@@ -1183,7 +1185,7 @@
 		</dict>
 	</dict>
 	<key>scopeName</key>
-	<string>source.c</string>
+	<string>source.hc</string>
 	<key>uuid</key>
 	<string>25066DC2-6B1D-11D9-9D5B-000D93589AF6</string>
 </dict>

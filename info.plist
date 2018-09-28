@@ -3,25 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>contactEmailRot13</key>
-	<string>gz-ohaqyrf@znpebzngrf.pbz</string>
+	<string>codingdandy@gmail.com</string>
 	<key>contactName</key>
-	<string>Allan Odgaard</string>
-	<key>deleted</key>
-	<array>
-		<string>A468007A-1960-4E1A-9F09-81EBFE04429C</string>
-	</array>
+	<string>Coding Dandy</string>
 	<key>description</key>
-	<string>Support for the venerable &lt;a href="http://en.wikipedia.org/wiki/C_%28programming_language%29"&gt;C programming language&lt;/a&gt; and for the leaner C++. The bundle has completion (using ⌥⎋) for the standard C functions and, in C++, STL algorithms.</string>
+	<string>Support for the HolyC programming language, used in &lt;a href="https://en.wikipedia.org/wiki/TempleOS"&gt;TempleOS&lt;/a&gt;.</string>
 	<key>mainMenu</key>
 	<dict>
 		<key>excludedItems</key>
-		<array>
-			<string>5039DA0E-538B-48E2-A45A-E5A27787E765</string>
-			<string>ADD104E9-830A-4AC4-AAF4-DB6D3B0B7506</string>
-			<string>E8D80809-0CDE-4E57-AC2A-8C22DFF353EE</string>
-			<string>034C3F18-097D-4B2C-8F20-C1CA3E9573E9</string>
-			<string>093DA4F2-D97F-4309-B869-6970C090A539</string>
-		</array>
+		<array/>
 		<key>items</key>
 		<array>
 			<string>E823A373-FFD6-42F1-998F-7571A3553847</string>
@@ -85,7 +75,7 @@
 		</dict>
 	</dict>
 	<key>name</key>
-	<string>C</string>
+	<string>HolyC</string>
 	<key>ordering</key>
 	<array>
 		<string>FF0E22D6-7D78-11D9-B4DE-000A95A89C98</string>

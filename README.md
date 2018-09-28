@@ -1,4 +1,8 @@
-# Installation
+TextMate HolyC
+==============
+Used for [GitHub's syntax highlighting](https://github.com/github/linguist).
+
+# Installation (macOS only)
 
 You can install this bundle in TextMate by opening the preferences and going to the bundles tab. After installation it will be automatically updated for you.
 
