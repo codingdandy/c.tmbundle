@@ -6,6 +6,8 @@
 	<array>
 		<string>hc</string>
 		<string>HC</string>
+		<string>hc.z</string>
+		<string>HC.Z</string>
 	</array>
 	<key>firstLineMatch</key>
 	<string>-[*]-( Mode:)? C -[*]-</string>
@@ -33,7 +35,7 @@
 		</dict>
 		<dict>
 			<key>include</key>
-			<string>source.c.platform</string>
+			<string>source.hc</string>
 		</dict>
 		<dict>
 			<key>match</key>
@@ -533,7 +535,7 @@
 				</dict>
 				<dict>
 					<key>include</key>
-					<string>source.c.platform#functions</string>
+					<string>source.hc#functions</string>
 				</dict>
 				<dict>
 					<key>include</key>
