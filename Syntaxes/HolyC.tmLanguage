@@ -34,10 +34,6 @@
 			<string>#comments</string>
 		</dict>
 		<dict>
-			<key>include</key>
-			<string>source.hc</string>
-		</dict>
-		<dict>
 			<key>match</key>
 			<string>\b(break|case|continue|default|do|else|for|goto|if|return|switch|while|throw|try|catch|extern|MOV|CALL|PUSH|LEAVE|RET|SUB|SHR|ADD|RETF|CMP|JNE|BTS|INT|XOR|JC|JZ|LOOP|POP|TEST|SHL|ADC|SBB|JMP|INC)\b</string>
 			<key>name</key>
